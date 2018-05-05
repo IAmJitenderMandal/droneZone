@@ -1,0 +1,155 @@
+/*************************general prefixes*************************/
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    
+
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/*************************Header*************************/
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(130deg, rgba(252, 13, 49, 0.75), rgba(235, 114, 3, 0.75)), url(../img/main-header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+/********logo*********/
+
+
+
+header .logo-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    
+}
+
+header .logo {
+    width: 10%;
+}
+
+header .logo h3 {
+    font-weight: 700;    
+    color: #f4ece6;
+    letter-spacing: 1px;
+}
+
+header .logo h3 span {
+    font-weight: 300;
+}
+
+header  nav {
+    width: 90%;
+    text-align: right;
+}
+
+header .logo-nav ul li {
+    display: inline;
+    margin: 1rem;
+}
+
+header .logo-nav ul li a {
+    text-decoration: none;
+    color: #f5d5bc;
+    margin-top: -3px;
+    padding: 0;
+}
+
+header .logo-nav ul li:last-child {
+    border: 1px solid #f5d5bc;;
+    border-radius: 3rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+
+header .hero-text {
+    text-align: center;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+header .hero-text h2 {
+    color: #f4ece6;
+    font-size: 160%;
+    font-weight: 700;
+    word-spacing: 0.2rem;
+    letter-spacing: 1px;
+    
+}
+header .hero-text h2 {
+    margin-bottom: 0.5rem;
+}
+
+header .hero-text p {
+    width: 60%;
+    line-height: 1.5rem;
+    margin: 0 auto;
+    font-weight: 300;
+    color: #f5d5bc;
+}
+
+header .hero-text .btn { 
+    text-decoration: none;
+    border: 1px solid #f5d5bc;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 0.4rem 1.5rem;
+    border-radius: 3rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+header .hero-text .btn:first-child {
+    background-color: #f4ece6;
+    color: rgb(252, 13, 49);
+}
+
+header .hero-text .btn:last-child {
+    color: #f4ece6;
+}
+
+header .hero-text .btn:last-child i {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
