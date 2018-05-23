@@ -3,22 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
-    <title></title>
-    <link rel="stylesheet" href="resources/css/styleSheet.css">
+    <meta name="viewport" content="width=device-width, initial-scal=1">
+    <title>DroneZone</title>
+    <link rel="stylesheet" href="sources/css/styleSheet.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="resources/icons/my-icons-collection/font/flaticon.css">
+    <link rel="stylesheet" href="sources/icons/my-icons-collection/font/flaticon.css">
+    <link rel="stylesheet" href="sources/css/queries.css">
 </head>
 
 <body>
+
     <header>
         <div class="logo-nav row">
-            <div class="logo">
+            <div class="logo col span-1-of-4">
                 <h3>Drone<span>Zone</span></h3>
             </div>
-            <nav>
+            <nav class="col">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -28,6 +32,8 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+            <!--            <img src="sources/icons/bar-icon.png" alt="" class="nav-bar">-->
+            <i class="fas fa-bars"></i>
         </div>
 
         <div class="hero-text">
@@ -59,7 +65,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Temporibus.</p>
             </div>
         </div>
-        <a href="#">Ask for price</a>
+        <a href="#" class="ask-price-btn-1">Ask for price</a>
     </section>
 
     <section class="nature-from-air">
@@ -70,64 +76,63 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur explicabo hic, commodi culpa possimus, recusandae </p>
 
             <div class="row">
-                
-                    <div class="step-1 col"><span>1</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit </div>
-                    <div class="step-2 col"><span>2</span>Lorem ipsum dolor sit amet, coicin blanditiis eius dignissimos!</div>
-                </div>
+
+                <div class="step-1 step col"><span>1</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit </div>
+                <div class="step-2 step col"><span>2</span>Lorem ipsum dolor sit amet, coicin blanditiis eius dignissimos!</div>
+            </div>
             <div class="row">
-                <div class="step-3 col"><span>3</span>Lorem ipsum ddipisicing elit. Ad at quue bis eius fuga  dignissimos!</div>
-                <div class="step-4 col"><span>4</span>Lorem ipsum  itaque blanditiis eriam corporis dignissimos!</div>
+                <div class="step-3 step col"><span>3</span>Lorem ipsum ddipisicing elit. Ad at quue bis eius fuga dignissimos!</div>
+                <div class="step-4 step col"><span>4</span>Lorem ipsum itaque blanditiis eriam corporis dignissimos!</div>
             </div>
 
             <div class="row">
-                <div class="step-5 col"><span>5</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad at qui</div>
+                <div class="step-5 step col"><span>5</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad at qui</div>
                 <div class="col"></div>
             </div>
 
         </div>
 
     </section>
-    
-    <section class="another-img-desc">
-        <div class="drone-shot">
-            <img src="resources/img/drone-scene.jpeg" alt="drone-shot">
+
+    <section class="another-img-desc row">
+        <div class="drone-shot col span-1-of-2">
+            <img src="sources/img/drone-scene.jpeg" alt="drone-shot">
         </div>
-        <div class="desc">
+        <div class="desc col span-1-of-2">
             <h2 class="common">Nature from the air</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus mollitia ipsam magnam, suscipit perspiciatis pariatur suscipit perspiciatis mollitia mollitia ipsampariatur</p>
             <a href="#">Ask for price</a>
         </div>
     </section>
-    
-    <section class="another-img-desc-1">
-        <div class="drone-shot">
-            <img src="resources/img/drone-scene2.jpeg" alt="drone-shot">
-        </div>
-        <div class="desc">
+
+    <section class="another-img-desc-1 row">
+
+        <div class="desc col span-1-of-2">
             <h2 class="common">Nature from the air</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus mollitia ipsam magnam, suscipit perspiciatis pariatur suscipit perspiciatis mollitia mollitia ipsampariatur</p>
             <a href="#">Ask for price</a>
+        </div>
+        <div class="drone-shot col span-1-of-2">
+            <img src="sources/img/drone-scene2.jpeg" alt="drone-shot">
         </div>
     </section>
     <section class="sign-up-section">
-      <div class="sign-up">
-          <h2>Sign up for our newsletter</h2>
-        <input type="text" placeholder="Email address"> <button type="submit">Send</button>
-      </div>
+        <div class="sign-up">
+            <h2>Sign up for our newsletter</h2>
+            <input type="text" placeholder="Email address"> <button type="submit">Send</button>
+        </div>
     </section>
     <footer>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-        <p>made with  <i class="far fa-heart"></i> by jitender mandal</p>
-       
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        <p>made with <i class="far fa-heart"></i> by jitender mandal</p>
+
         <div class="social-icons">
             <div class="fb common"><a href="#"><i class="fab fa-facebook"></i></a></div>
             <div class="tw common"><a href="#"><i class="fab fa-twitter-square"></i></a></div>
-            <div class="inst common"><a href="#"><i class="fab fa-instagram"></i>
-
-</a></div>
+            <div class="inst common"><a href="#"><i class="fab fa-instagram"></i></a></div>
         </div>
     </footer>
-    
+    <script src="sources/js/script.js"></script>
 </body>
 
 </html>

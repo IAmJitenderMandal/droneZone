@@ -1,0 +1,182 @@
+/*************device-width: 2560px****************/
+
+@media screen and (min-width: 2000px) {
+
+    .row {
+        height: auto;
+        overflow: hidden;
+    }
+    header div.logo-nav div.logo {
+        width: auto;
+        font-size: 300%;
+        margin: 0;
+    }
+
+    nav.col ul li {
+        font-size: 220%;
+    }
+
+    nav.col ul li a {
+        font-weight: 300;
+    }
+
+    nav.col ul {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        margin-top: 0;
+        height: auto;
+    }
+
+    nav.col ul li:last-child {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+    }
+
+    header .hero-text h2 {
+        font-size: 600%;
+    }
+
+    header .hero-text p {
+        font-size: 220%;
+        line-height: inherit;
+        width: 80%;
+        padding: 2rem;
+    }
+
+    header .hero-text .btns .btn {
+        font-size: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+    }
+
+    section.ask-price .row .col h3 {
+        font-size: 350%;
+
+    }
+
+    .ask-price .row .col i:before {
+        font-size: 250%;
+    }
+
+    section.ask-price .row .col p {
+        font-size: 2rem;
+        line-height: inherit;
+        letter-spacing: .5px;
+        font-weight: 300;
+    }
+
+    section.ask-price .ask-price-btn-1 {
+        font-size: 220%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1.3rem;
+        border-radius: 40px;
+        font-weight: 300;
+    }
+
+    section.nature-from-air {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-position: 85% 55%;
+    }
+
+    section.nature-from-air div.steps h2.common {
+        font-size: 350%;
+    }
+
+    section.nature-from-air div.steps p {
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+
+    section.nature-from-air div.steps .row .step {
+        font-size: 190%;
+        letter-spacing: 0.5px;
+    }
+
+    section.another-img-desc div.desc h2 {
+        font-size: 350%;
+    }
+
+    section.another-img-desc div.desc p {
+        font-size: 2rem;
+        line-height: inherit;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        letter-spacing: 1px;
+
+    }
+
+    section.another-img-desc-1 div.desc h2 {
+        font-size: 350%;
+    }
+
+    section.another-img-desc-1 div.desc p {
+        font-size: 2rem;
+        letter-spacing: 1px;
+        line-height: inherit;
+    }
+    section.another-img-desc div.desc a,
+    section.another-img-desc-1 div.desc a {
+        font-size: 220%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1.3rem;
+        border-radius: 40px;
+        font-weight: 300;
+    }
+
+    section.sign-up-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+    }
+
+    section.sign-up-section .sign-up h2 {
+        font-size: 300%;
+    }
+
+    section.sign-up-section .sign-up input {
+        width: 80%;
+        height: 4rem;
+        font-size: 2rem;
+        border-radius: 30px 0px 0px 30px;
+    }
+    section.sign-up-section .sign-up button {
+        height: 4rem;
+        border-radius: 0px 30px 30px 0px;
+        font-size: 2rem;
+        width: auto;
+        padding-right: 15px;
+    }
+
+    ::placeholder {
+        font-size: 1.5rem;
+
+    }
+
+    section.sign-up-section .sign-up h2 {
+        margin-top: 0;
+    }
+
+    footer p {
+        font-size: 2rem;
+        line-height: 1.8;
+        letter-spacing: 1px;
+    }
+    footer .social-icons div.common a i.fab {
+        font-size: 3rem;
+
+    }
+}
+
+}
