@@ -1,3 +1,4 @@
+/*
 let burgerIcon = document.querySelector('header .logo-nav i');
 console.log(burgerIcon);
 
@@ -7,6 +8,21 @@ burgerIcon.addEventListener("click",() => {
     console.log(menu)
 })
 
+*/
 
+let nav = document.querySelector('header div.logo-nav');
+console.log(nav)
 
+let offsetEl = document.querySelector('.ask-price');
+console.log(offsetEl.offsetTop);
 
+function scroling() {
+    if (window.scrollY >= offsetEl.offsetTop) {
+        nav.classList.add("offset-view");
+    } else {
+        nav.classList.remove("offset-view");
+        nav.classList.add("logo-nav");
+    }
+}
+
+window.addEventListener('scroll', scroling);
