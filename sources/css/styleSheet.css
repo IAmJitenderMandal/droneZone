@@ -336,7 +336,10 @@ section.another-img-desc-1 .desc {
     padding-left: 4rem;
     padding-bottom: 1rem;
 }
-
+div.row .span-1-of-2 {
+    width: 50%;
+    
+}
 section.another-img-desc p,
 section.another-img-desc-1 .desc p {
     width: 70%;
