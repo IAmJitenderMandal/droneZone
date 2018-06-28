@@ -11,7 +11,6 @@ burgerIcon.addEventListener("click",() => {
 */
 
 let nav = document.querySelector('header div.logo-nav');
-console.log(nav)
 
 let offsetEl = document.querySelector('.ask-price');
 console.log(offsetEl.offsetTop);
@@ -26,3 +25,17 @@ function scroling() {
 }
 
 window.addEventListener('scroll', scroling);
+
+
+
+//mobile navigation
+var menu = document.querySelector('header ul');
+console.log(menu)
+var bar = document.querySelector('.fa-bars');
+
+console.log(bar)
+
+
+bar.addEventListener("click", function (e) {
+    menu.classList.toggle('mobile-nav');
+})

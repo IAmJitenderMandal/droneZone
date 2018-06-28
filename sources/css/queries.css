@@ -6,29 +6,29 @@
         font-size: 2rem;
         width: auto;
     }
-    
+
     header nav.col ul {
         position: relative;
         top: 50%;
         transform: translate(0%, -50%);
         margin-top: 0;
     }
-    
-     nav.col ul li:last-child {
+
+    nav.col ul li:last-child {
         padding-left: 3rem;
         padding-right: 3rem;
         padding-top: 1rem;
         padding-bottom: 1.2rem;
     }
-    
+
     header nav.col ul li {
         font-size: 220%;
     }
- 
+
     header div.hero-text {
         width: 70%;
     }
-    
+
     header div.hero-text h2 {
         font-size: 600%
     }
@@ -38,7 +38,7 @@
         width: 80%;
         padding: 2rem;
     }
-    
+
     header .hero-text .btns .btn {
         font-size: 2rem;
         padding-left: 3rem;
@@ -65,10 +65,14 @@
 
     nav.col ul li {
         font-size: 220%;
+        color: #f4ece6;
+        z-index: 999;
     }
 
     nav.col ul li a {
         font-weight: 300;
+        color: #f4ece6;
+        z-index: 999;
     }
 
     nav.col ul {
@@ -224,27 +228,151 @@
     }
 }
 
+
+/*************device-width: 360px****************/
+
+@media screen and (max-width: 360px) {
+    header ul {
+        display: none;
+    }
+    header ul.mobile-nav {
+        display: block;
+        width: 100%;
+        background-color: rgba(234, 94, 19);
+        position: absolute;
+        top: 3.5rem;
+        left: 0;
+        padding-left: 0;
+        padding-right: 2rem;
+        box-sizing: border-box;
+        z-index: 999;
+        
+    }
+    header ul li:last-child {
+        border: none;
+    }
+    header ul li a{
+        width: 100%;
+        display: block;
+    
+    }
+
+    header i.fa-bars {
+        display: block;
+        font-size: 150%;
+        color: #e0e0e0;
+        height: auto;
+        position: relative;
+        top: 1rem;
+        cursor: pointer;
+    }
+
+    header div.hero-text {
+        width: 100%;
+        padding: 1rem;
+        position: relative;
+        top: 15rem;
+        padding-top: 0;
+    }
+    header div.hero-text h2 {
+        font-size: 2rem;
+    }
+
+    header div.hero-text p {
+        font-size: 1rem;
+        width: auto;
+        margin: 0;
+    }
+
+    section.nature-from-air {
+        padding: 1rem;
+    }
+
+    section.nature-from-air div.steps {
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+
+    .nature-from-air .steps p {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+
+    section.nature-from-air div.steps div.row {
+        width: 100%;
+        display: block;
+    }
+
+    section.nature-from-air div.steps div.row .col {
+        padding-right: 0;
+    }
+
+    section.another-img-desc div.drone-shot {
+        display: none;
+    }
+
+    section.another-img-desc .desc {
+        padding-bottom: 2rem;
+        width: 100%;
+        padding-left: 1rem;
+        background-image: linear-gradient(130deg, rgba(252, 13, 49, 0.6), rgba(235, 114, 3, 0.6)), url(../img/drone-view.jpg);
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    section.another-img-desc .desc h2 {
+        width: 100%;
+        color: #f4ece6;
+        font-weight: 600;
+    }
+
+    section.another-img-desc .desc p {
+        width: 100%;
+        letter-spacing: 1px;
+        color: #f4ece6;
+        font-weight: 400;
+    }
+
+    section.another-img-desc .desc a {
+        margin-top: 0;
+        position: relative;
+        top: 1rem;
+        color: #f4ece6;
+        font-weight: 400;
+
+    }
+
+    section.another-img-desc-1 {
+        display: none;
+    }
+
+    section.sign-up-section {
+        background: none;
+    }
+    
+    section.sign-up-section div.sign-up h2 {
+        color: rgba(234, 94, 19, 0.91);
+    }
+    
+    section.sign-up-section div.sign-up input {
+        display: block;
+        width: 12rem;
+        margin-bottom: 1rem;
+        border-radius: 20px;
+    }
+    
+    section.sign-up-section div.sign-up button {
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgba(234, 94, 19, 0.91);
+        color: #f4ece6;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
