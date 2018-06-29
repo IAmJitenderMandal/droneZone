@@ -78,9 +78,7 @@ header .logo h3 span {
 /********nav*********/
 
 /*style for different offset*/
-.logo-nav{
-  background-color:    
-}
+
 
 
 header nav {
@@ -398,6 +396,7 @@ section.sign-up-section .sign-up h2 {
 
 section.sign-up-section .sign-up input {
     width: 70%;
+    margin: auto;
     height: 2.1rem;
     border-radius: 20px 0px 0px 20px;
     -webkit-box-shadow: 0;
