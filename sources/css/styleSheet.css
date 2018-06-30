@@ -45,6 +45,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
 
@@ -120,17 +122,16 @@ header .hero-text {
     width: 50%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
 }
 
-header .hero-text h2 {
+header .hero-text h1 {
     color: #f4ece6;
-    font-size: 350%;
-    font-weight: 400;
+    font-size: 300%;
+    font-weight: 300;
     word-spacing: 0.2rem;
     letter-spacing: 1px;
     margin-bottom: 0.5rem;
@@ -182,7 +183,8 @@ header .hero-text .btn:last-child i {
     text-align: center;
     padding: 50px;
     background-color: #f7f7f7;
-    ;
+    z-index: 999;
+    
 }
 
 .ask-price .row {

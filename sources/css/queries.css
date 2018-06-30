@@ -28,7 +28,7 @@
         width: 70%;
     }
 
-    header div.hero-text h2 {
+    header div.hero-text h1 {
         font-size: 600%
     }
     header .hero-text p {
@@ -232,10 +232,21 @@
 
 @media screen and (max-width: 360px) {
 
+    header {
+        height: 100vh;
+        min-height: 100vh;
+    }
+    header .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+        
+    }
     header ul {
         display: none;
     }
-
+    
     header ul.mobile-nav {
         display: block;
         text-align: center;
@@ -427,6 +438,10 @@
 
 @media screen and (max-width: 411px) {
 
+    header {
+        height: 100vh;
+        min-height: 100vh;
+    }
     header ul {
         display: none;
     }
@@ -619,6 +634,11 @@
 
 @media screen and (max-width: 414px) {
 
+    header {
+        height: 100vh;
+        min-height: 100vh;
+    }
+    
     header ul {
         display: none;
     }
@@ -815,6 +835,11 @@
 @media screen and (max-width: 768px) {
     
     header {
+        height: 100vh;
+        min-height: 100vh;
+    }
+    
+    header {
         height: 70vh;
     }
     header ul {
@@ -1009,10 +1034,11 @@
 /*************device-width: 995px****************/
 
 @media screen and (max-width: 995px) {
-    
     header {
-        height: 70vh;
+        height: 100vh;
+        min-height: 100vh;
     }
+    
     header ul {
         display: none;
     }

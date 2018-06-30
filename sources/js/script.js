@@ -1,4 +1,4 @@
-/*
+
 let burgerIcon = document.querySelector('header .logo-nav i');
 console.log(burgerIcon);
 
@@ -8,7 +8,7 @@ burgerIcon.addEventListener("click",() => {
     console.log(menu)
 })
 
-*/
+
 
 let nav = document.querySelector('header div.logo-nav');
 
@@ -39,3 +39,16 @@ console.log(bar)
 bar.addEventListener("click", function (e) {
     menu.classList.toggle('mobile-nav');
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
